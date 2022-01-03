@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a href="https://en.wikipedia.org/wiki/Belarus"><img src="./assets/logo.jpg" class="logo" alt="belaz"></a>
+            <ul class="main-navigation-list">
+                <li class="main-navigation-item"><a href="#about">About</a></li>
+                <li class="main-navigation-item"><a href="#skills">Skills</a></li>
+                <li class="main-navigation-item"><a href="#code">Code Example</a></li>
+                <li class="main-navigation-item"><a href="#projects">Projects</a></li>
+                <li class="main-navigation-item"><a href="#language">Education</a></li>
+                <li class="main-navigation-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="personal-info">
+            <img src="./assets/me.jpg" width="200" height="180" class="my-picture" alt="me">
+            <div>
+                <h1 class="name">My name is Aliaksandr Rebkavets</h1>
+                <h2 class="profession">Junior Frontend Developer</h2>
+            </div>
+        </div>
+        <h2 class="title" id="about">About me</h2>
+        <p class="about-text">Hi! I am a graduate of MSLU. My specialty is German language. Now I am a student of rsschool and want to be a Frontend Developer.
+           It is a good chance to change my job and it is interesting for me. 
+        </p>
+        <h2 class="title" id="skills">My Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skills">
+                <ul class="skill-list">
+                    <li class="skill-list-item">HTML</li>
+                    <li class="skill-list-item">CSS/Sass</li>
+                    <li class="skill-list-item">JavaScript</li>
+                    <li class="skill-list-item">Git</li>
+                    <li class="skill-list-item">Figma</li>
+                    <li class="skill-list-item">Photoshop</li>
+                </ul>
+            </div>
+            <div class="scala">
+                <div class="container">
+                    <div class="scala-item html">90%</div>
+                </div>
+                <div class="container"> 
+                    <div class="scala-item css">85%</div>
+                </div>
+                <div class="container">
+                    <div class="scala-item javascript">50%</div>
+                </div>
+                <div class="container"> 
+                    <div class="scala-item git">30%</div>
+                </div>
+                <div class="container"> 
+                    <div class="scala-item figma">65%</div>
+                </div>
+                <div class="container"> 
+                    <div class="scala-item photoshop">65%</div>
+                </div>
+            </div>
+        </div>
+        <h2 class="title" id="code">Code Example</h2>
+        <pre class="code">
+            let FilterString = function(value) {
+                let a = value.match(/\d/g);
+                return +a.join("");
+              }
+        </pre>
+        <h2 class="title" id="projects">Projects</h2>
+        <div class="project-wrapper">
+            <img class="project-image" src="./assets/hero.jpg" alt="wildlife" width="750" height="450">
+            <a class="project-link" href="https://agitated-newton-99d4e4.netlify.app/">See project</a>
+        </div>
+        <h2 class="title" id="language">Education</h2>
+        <p class="education">1999-2005 - MSLU, the Faculty of German, Teacher of German.</p>
+        <p class="language-text">I can speak 4 languages:</p>
+        <ul class="language-list">
+            <li>English (A2)</li>
+            <li>Russian (fluent)</li>
+            <li>Belarussian (native)</li>
+            <li>German (B1)</li>
+        </ul>
+        <h2 class="title">Contact</h2>
+        <div class="contact" id="contact">
+            <ul class="contact-list">
+                <li class="contact-list-item">Address</li>
+                <li class="contact-list-item">Phone</li>
+                <li class="contact-list-item">Email</li>
+            </ul>
+            <div class="contact-description">
+                <img src="./assets/location.png" class="location" alt="location">
+                <span class="addres">222160, Zhodino, Belarus</span>
+                <img src="./assets/phone.png" class="phone" alt="phone">
+                <span class="phone">+375292746527</span>
+                <img src="./assets/internet.png" class="web" alt="web">
+                <span class="email">tarpach@yandex.ru</span>
+            </div>
+        </div>
+    </main>    
+    <footer class="main-footer">
+        <p class="year">© 2022 by Aliaksandr Rebkavets</p>
+        <a href="https://github.com/Aleksandr2102" class="github">Github</a>
+        <a href="https://rs.school/js/"><img src="./assets/rs_school_js.svg" class="rsschool" width="80" height="80" alt="rsschool"></a>
+    </footer>
+</body>
+</html>
