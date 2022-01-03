@@ -1,0 +1,322 @@
+body {
+  margin: 0 auto;
+  width: auto;
+  background-color: rgb(83, 74, 74);
+}
+
+/*header*/ 
+
+.main-header {
+  background-color: rgb(83, 74, 74);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  border-radius: 30px;
+  margin-left: 140px;
+}
+
+.main-navigation {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 82px;
+  background-color: #000;
+}
+
+.main-navigation-list {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  margin-top: 0;
+  margin-left: 150px;
+  padding-top: 18px;
+}
+
+.main-navigation-item {
+  height: 45px;
+  font-size: 20px;
+  margin-right: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-navigation-item a { 
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-navigation-item a:hover {
+  color:aqua;
+}
+
+/*main*/
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(83, 74, 74);
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 28px;
+  padding-left: 25px;
+  color: rgb(206, 189, 221);
+}
+
+.title {
+  margin-left: 560px;;
+  margin-bottom: 95px;
+  padding-top: 82px;
+}  
+
+
+
+/*personal-info*/
+
+.personal-info {
+  margin-left: 210px;
+  display: flex;
+  margin-bottom: 65px;
+  margin-top: 120px;
+}
+
+.my-picture {
+  border-radius: 150px;
+  margin-right: 160px;
+}
+
+.name, 
+.profession {
+  text-transform: none;
+}
+
+.name {
+  color: rgb(185, 162, 226);
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.profession {
+  color: rgb(154, 189, 206);
+  margin-left: 50px;
+}
+
+.about-text {
+  color: rgb(154, 189, 206);;
+  font-size: 20px;
+  margin-bottom: 80px;
+  margin-left: 240px;
+  width: 750px;
+  line-height: 30px;
+}
+
+
+/*skills*/
+
+.skill-list-item {
+  color: rgb(164, 219, 176);
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.skills-wrapper {
+  display: flex;
+  margin-left: 240px;
+  margin-bottom: 60px;
+}
+
+.scala-item {
+  width: 450px;
+  height: 20px;
+  margin-bottom: 22px;
+  margin-top: 18px;
+}
+
+.html {
+  width: 405px;
+  background-color: aquamarine;
+  text-align: right;
+}
+
+.css {
+  width: 392px;
+  background-color: rgb(110, 110, 226);
+  text-align: right;
+}
+
+.javascript {
+  width: 225px;
+  background-color: rgb(228, 146, 146);
+  text-align: right;
+}
+
+.git {
+  width: 150px;
+  background-color:rgb(114, 86, 86);
+  text-align: right;
+}
+
+.figma {
+  width: 280px;
+  background-color: yellow;
+  text-align: right;
+}
+
+.photoshop {
+  width: 280px;
+  background-color: rgb(187, 171, 171);
+  text-align: right;
+}
+
+.container {
+  width: 450px;
+  background-color: #fff;
+}
+
+/*code*/ 
+
+.code {
+  color: rgb(154, 189, 206);
+  font-size: 20px;
+  margin-left: 335px;
+  margin-bottom: 60px;
+}
+
+/*projects*/
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: rgb(154, 189, 206);
+  margin-left: 250px;
+}
+
+.project-link {
+  color: rgb(154, 189, 206);
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.project-link:hover {
+  color:aqua;
+}
+
+/*education*/
+
+.education {
+  color: rgb(154, 189, 206);
+  font-size: 20px;
+  margin-left: 250px;
+  margin-bottom: 25px;
+  margin-top: 90px;
+}
+
+.language-text,
+.language-list {
+  color: rgb(154, 189, 206);
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+.language-list { 
+  margin-bottom: 90px;
+}
+
+/*contact*/
+
+.contact {
+  margin-left: 140px;
+  padding-bottom: 110px;
+}
+
+.contacts {
+  display: flex;
+  min-height: 70px;
+  background-color: #000;
+  color: #fff; 
+  font-size: 16px;
+}
+
+.contact-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.contact-list-item {
+  color: rgb(164, 219, 176);
+  font-size: 20px;
+  margin-right: 288px;
+}
+
+.contact-description {
+  display: flex;
+  color: #fff;
+  margin-left: 35px;
+}
+
+.addres {
+  width: 157px;
+  margin-right: 166px;
+}
+
+.location {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.phone {
+  margin-right: 5px;
+}
+
+.web {
+  margin-left: 202px;
+  margin-right: 10px;
+}
+
+
+/*footer*/
+
+.main-footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 90px;
+  background-color: rgba(236, 146, 202, 0.671);
+}
+
+.year {
+  margin-top: 30px;
+  margin-left: 140px;
+  margin-right: 230px;
+}
+
+.year, 
+.github {
+  color: #fff;
+  font-size: 20px;
+}
+
+.github {
+  margin-top: 30px;
+  text-decoration: none;
+  margin-right: 280px;
+}
+
+.github:hover {
+  color:aqua;
+}
+
