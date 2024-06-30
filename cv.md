@@ -22,6 +22,7 @@ I want to finish this course and become a good developer.
 * CSS
 * JavaScript
 * Git
+* Figma 
 
 
 ### Code Example
