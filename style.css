@@ -1,0 +1,140 @@
+html, body {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(236, 220, 220);
+    min-height: 130px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.main-navigation {
+    display: flex;
+}
+
+img {
+    margin-right: 270px;
+}
+
+.name {
+    margin-right: 270px;
+}
+
+.vacancy {
+    color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    min-height: 100px;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skills, .skills-list {
+    color: white;
+}
+
+.skills-list {
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+.about-me {
+    background-color: white;
+    min-height: 140px;
+}
+
+.about-me p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.code-example {
+    background-color: white;
+    min-height: 200px;
+}
+
+pre {
+    font-size: 20px;
+}
+
+
+.education h3, .education p {
+    color: white;
+}
+
+.education p {
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+.courses {
+    background-color: white;
+}
+
+.courses h3, .courses ul {
+    color: black;
+}
+
+.courses ul {
+    padding-left: 100px;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.languages h3, .languages ul {
+    color:white;
+}
+
+.languages ul {
+    font-size: 18px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.main-footer {
+    background-color: white;
+    display: flex;
+    min-height: 100px;
+    padding-top: 40px;
+}
+
+.year {
+    color: black;
+    padding-top: 14px;
+    padding-right: 300px;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: black;
+    padding-left: 140px;
+    padding-right: 340px;
+}
+
+.contacts h3, .contacts ul {
+    color: white;
+}
+
+.contacts ul {
+    padding-left: 100px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
